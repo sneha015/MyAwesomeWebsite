@@ -474,7 +474,7 @@ html{
 @media only screen and (max-width: 600px) {
     
     .para1 {
-        width=90%;
+        width: 90%;
     }
     .para1 ten marquee{
         scrollamount = "4";
@@ -484,8 +484,8 @@ html{
     }
    
     .squaree {
-        width:78%;
-        min-height:220px;
+        width: 78%;
+        min-height: 220px;
         height: 100%;
         margin-right: 10%;
         margin-left: 10%;
@@ -493,8 +493,8 @@ html{
     }
   
     .squareeto {
-        width:78%;
- min-height:220px;
+        width: 78%;
+ min-height: 220px;
         height: 100%;
         margin-right: 10%;
         margin-left: 10%;
@@ -502,7 +502,7 @@ html{
     }
     .squaretwoo {
         width: 78%;
-        min-height:220px;
+        min-height: 220px;
         height: 100%;        
         margin-right: 10%;
         margin-left: 10%;
@@ -510,7 +510,7 @@ html{
     }
 
     .img img {
-        height:35px;
+        height: 35px;
     }
 }
 
