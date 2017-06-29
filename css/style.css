@@ -1,0 +1,512 @@
+
+body{
+    width :100%;
+     max-width: 100% !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+a img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+a span {
+    display: inline-block;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size : 40px;
+    position: relative;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-size : 15px;
+    font-weight:normal;
+    text-align: center;
+    position: relative;
+    margin-top:5%;
+    margin-left: 20%;
+    color:#FFF;
+    width:60%;
+    
+}
+
+h3{
+    font-size : 20px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+p{
+    margin: -2px 0 0 10px;
+    padding: 0;
+    position: relative;
+    font-weight: lighter;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 112%;
+    color:#000;
+}
+.codeheading {
+    background-color: #B6B6B4;
+    margin-left:0px;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width:100%
+}
+.content{
+    position : fixed;
+    width : 100%;
+    background-color: #fff;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    opacity: .9;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    z-index:1;
+}
+
+.content a{
+    float:left;
+    display:block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    opacity: 1;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2px;
+    padding: 7px 7px;
+     z-index:1;
+}
+
+.content a.active{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    opacity: .6;
+     z-index:1;
+}
+
+.content a:hover{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    opacity: .6;
+     z-index:1;
+}
+
+.content .icon {
+    display: none;
+}
+
+.content a.tryname{
+    height:auto !important;
+    float: left;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    margin-top: -2px;
+}
+
+.content a.tryname:hover{
+    height:auto !important;
+    opacity:1;
+}
+
+.img{
+    display: table;
+    width: 70%;
+    margin: 10px auto;
+    z-index:1;
+}
+
+.img a {
+    display: table-cell;
+    text-align: center;
+    width: 20%;
+    z-index:1;
+    
+}
+
+.img img {
+    width: 70%;
+    height:80px;
+    border:0;
+    border-radius: 15px;
+    z-index:1;
+}
+
+.sq{
+   margin: 0 auto;
+   width:100%;
+   height:25%;
+}
+
+.sqredis{
+    margin: 0 auto;
+    width:80%;
+    height:10%;
+}
+
+.join{
+    margin: 0 auto;
+    width: 65%;
+}
+
+.logo {
+   height: 8%;
+   width: 8%;
+}
+.logo1 {
+    
+    height: 10%;
+    width: 10%;
+}
+.logo2 {
+    
+    height: 15%;
+    width: 16%;
+}
+.logo3 {
+    
+    height: 7.5%;
+    width: 7.5%;
+}
+
+.para{
+    width:98%;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+
+.para1{
+    margin: 0 auto;
+    width: 60%;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+
+.alignleft {
+    float: left;
+    position:relative;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.alignright {
+    float: right;
+    font-size: 18px;
+}
+
+.skill {
+    border: 2px solid #50a9d1;
+    margin-right: 10px;
+    text-transform: uppercase;
+    width: auto;
+    display: inline-block;
+    font-size: 75%;
+    font-weight:bold;
+    line-height: 1.33333em;
+    padding: .6% .95%;
+    margin-top: 0.8em;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.skillall {
+    margin-left:1px;
+}
+.skillall span {
+        border: 2px solid #50a9d1;
+        margin-right: 10px;
+        text-transform: uppercase;
+        width: auto;
+        display: inline-block;
+        font-size: 85%;
+        font-weight:bold;
+        line-height: 1.33333em;
+        padding: .6% .95%;
+        margin-top: 0.8em;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        border-radius: 15px;
+}
+
+.squaree {
+    background-color: #fff;
+    color:#000;
+    text-align: left;
+    position: relative;
+    width: 384px;
+    height: 400px;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    float: left;
+}
+
+.squareetop {
+    background-color: #A2A5A5;
+    color:#F9FBFB;
+    text-align: left;
+    position: relative;
+    width: 384px;
+    height: 184px;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    float: left;
+}
+.squareeto {
+    background-color: #3A3A3A;
+    color:#F9FBFB;
+    text-align: left;
+    position: relative;
+    width: 471.6px;
+    height: 400px;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    float: left;
+}
+.squaretwoo {
+    text-align: left;
+    width: 55.5%;
+    height: 400px;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    float: left;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.squareeto:hover .overlay {
+    opacity: 1;
+    background-color: #6ED7AA;
+}
+.squareetop:hover .overlay {
+    opacity: 1;
+    background-color: #EEBA52;
+}
+.squaree:hover .overlay {
+    opacity: 1;
+    background-color: #79DBD1;
+}
+
+.overlay .text img {
+    width: 40%;
+    border:0;
+    margin-top:150px;
+    z-index:1;
+}
+.squareetop:hover .overlay .text img{
+    margin-top:60px;
+}
+
+.overlay .text{
+    display: table;
+    width: 20%;
+    margin: 20px auto;
+    z-index:1;
+}
+
+.overlay .text a {
+    display: table-cell;
+    text-align: center;
+    margin-top:120px;
+    width: 20%;
+    z-index:1;
+}
+
+#Above{
+    width: 100%;
+    margin:0;
+    overflow: hidden;
+    background-size: cover;
+    background-color:#45A6A6;
+    overflow-x:hide;
+}
+
+#About_Me{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    overflow: hidden;
+    background-size: cover;
+    background-color: #6A7295;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    overflow-x:hide;
+}
+
+.square {
+    background-color: #3A3A3A;
+    color:#fff;
+    text-align: left;
+    border-radius: 5px;
+    width: 60%;
+    height: 50%;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+.square p{
+    letter-spacing: 1px;
+}
+
+#Education{
+    background-color:#F5F7F6;
+    margin: 0 auto;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    color:#000;
+}
+
+
+#Proj{
+    overflow: hidden;
+    margin: 0 auto;
+    color: #fff;
+    background-color:#EB7979;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    font-size:85%;
+}
+
+#contact{
+    margin: 0 auto;
+    color: #B03B00;
+    background-size: cover;
+    background-color: #E4E4DD;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+.foot {
+    font-size: 75%;
+    text-align: center;
+}
+
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+img { max-width: 100%; }
+html{
+    font-size:100%;
+    max-width: 100%;
+    overflow-x:hidden;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .content a:not(:first-child) {display: none;}
+    .content a.icon {
+        position: relative;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+        float: right;
+        display: block;
+    }
+}
+
+/* The "responsive" class is added to the content with JavaScript when the user clicks on the icon. This class makes the content look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+    .content.responsive {position: relative;  max-width: 100% !important;
+        overflow-x: hidden !important;}
+    .content.responsive a.icon {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .content.responsive a {
+        float: none;
+        display: block;
+        text-align: right;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    body { font-size: .3em; }
+    h2{font-size: .5em; }
+    h3{font-size: .5em; }
+    .alignleft {font-size: .5em;}
+    .alignright {font-size: .5em;}
+    .content a.tryname{font-size: 1em;}
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .para1 {
+        width=90%;
+    }
+    .para1 ten marquee{
+        scrollamount = "4";
+    }
+   
+    .squaree {
+        width:78%;
+        height: 50%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .squareetop {
+        width:78%;
+        height: 50%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .squareeto {
+        width:78%;
+        height: 50%;
+        margin-right: 10%;
+        margin-left: 10%;
+
+    }
+    .squaretwoo {
+        width: 78%;
+        height: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .img img {
+        height:40px;
+    }
+}
+
