@@ -494,18 +494,16 @@ html{
   
     .squareeto {
         width:78%;
-        min-height:220px;
+ 
         height: 100%;
         margin-right: 10%;
         margin-left: 10%;
         margin-bottom: 10%;
-
     }
     .squaretwoo {
         width: 78%;
         min-height:220px;
-        height: 100%;
-        
+        height: 100%;        
         margin-right: 10%;
         margin-left: 10%;
         margin-bottom: 10%;
