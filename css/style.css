@@ -10,6 +10,7 @@ body{
 a {
     display: block;
     text-decoration: none;
+    
 }
 a img {
     display: inline-block;
@@ -18,6 +19,10 @@ a img {
 }
 a span {
     display: inline-block;
+}
+
+.headingwidth{
+    100%;
 }
 
 h1{
@@ -58,6 +63,7 @@ p{
 }
 
 .heading{
+   
     font-weight: bold;
     font-size: 112%;
     color:#000;
@@ -215,6 +221,9 @@ p{
     float: right;
     font-size: 18px;
 }
+.rig {
+    float:right;
+}
 
 .skill {
     border: 2px solid #50a9d1;
@@ -255,44 +264,43 @@ p{
         border-radius: 15px;
 }
 
+.hor {
+    display:table;
+    width:100%;
+}
+
 .squaree {
     background-color: #fff;
     color:#000;
+    display:table-cell;
     text-align: left;
     position: relative;
-    width: 384px;
-    height: 400px;
+    width:29.5%;
+    min-height: 415px;
+    height:100%;
     margin-bottom: 2.5%;
     margin-left: 2.5%;
     float: left;
 }
 
-.squareetop {
-    background-color: #A2A5A5;
-    color:#F9FBFB;
-    text-align: left;
-    position: relative;
-    width: 384px;
-    height: 184px;
-    margin-bottom: 2.5%;
-    margin-left: 2.5%;
-    float: left;
-}
 .squareeto {
     background-color: #3A3A3A;
+    text-align: left;
     color:#F9FBFB;
     text-align: left;
     position: relative;
-    width: 471.6px;
-    height: 400px;
+    width: 37%;
+    min-height: 400px;
+    height=100%
     margin-bottom: 2.5%;
     margin-left: 2.5%;
     float: left;
 }
 .squaretwoo {
     text-align: left;
-    width: 55.5%;
-    height: 400px;
+    text-align: left;
+    width: 54%;
+    height: 398px;
     margin-bottom: 2.5%;
     margin-left: 2.5%;
     float: left;
@@ -314,10 +322,7 @@ p{
     opacity: 1;
     background-color: #6ED7AA;
 }
-.squareetop:hover .overlay {
-    opacity: 1;
-    background-color: #EEBA52;
-}
+
 .squaree:hover .overlay {
     opacity: 1;
     background-color: #79DBD1;
@@ -329,10 +334,6 @@ p{
     margin-top:150px;
     z-index:1;
 }
-.squareetop:hover .overlay .text img{
-    margin-top:60px;
-}
-
 .overlay .text{
     display: table;
     width: 20%;
@@ -478,35 +479,40 @@ html{
     .para1 ten marquee{
         scrollamount = "4";
     }
+    .hor{
+        clear :display;
+    }
    
     .squaree {
         width:78%;
-        height: 50%;
+        min-height:220px;
+        height: 100%;
         margin-right: 10%;
         margin-left: 10%;
+        margin-bottom: 10%;
     }
-    .squareetop {
-        width:78%;
-        height: 50%;
-        margin-right: 10%;
-        margin-left: 10%;
-    }
+  
     .squareeto {
         width:78%;
-        height: 50%;
+        min-height:220px;
+        height: 100%;
         margin-right: 10%;
         margin-left: 10%;
+        margin-bottom: 10%;
 
     }
     .squaretwoo {
         width: 78%;
-        height: 80%;
+        min-height:220px;
+        height: 100%;
+        
         margin-right: 10%;
         margin-left: 10%;
+        margin-bottom: 10%;
     }
 
     .img img {
-        height:40px;
+        height:35px;
     }
 }
 
